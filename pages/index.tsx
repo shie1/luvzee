@@ -10,10 +10,23 @@ const Home: NextPage = () => {
   return (<>
     <div className="bg" style={{ backgroundImage: "url('/img/index-bg.jpg')" }} />
     <Head>
-      <title>luvzee</title>
+      {/* HTML Meta Tags */}
+      <title>luvzee • Alternatív/indie zenész</title>
       <meta name="description" content="Magyar alternatív/indie zenész" />
-      <meta name='author' content='luvzee' />
-      <link rel="canonical" href="https://luvzee.shie1bi.hu/" />
+      {/* Facebook Meta Tags */}
+      <meta property="og:url" content="https://menetrendek.info" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="luvzee • Alternatív/indie zenész" />
+      <meta property="og:description" content="Magyar alternatív/indie zenész" />
+      <meta property="og:image" content="/img/luvzee-avatar.jpg" />
+      {/* Twitter Meta Tags */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:domain" content="menetrendek.info" />
+      <meta property="twitter:url" content="https://menetrendek.info" />
+      <meta name="twitter:title" content="luvzee • Alternatív/indie zenész" />
+      <meta name="twitter:description" content="Magyar alternatív/indie zenész" />
+      <meta name="twitter:image" content="/img/luvzee-avatar.jpg" />
+      {/* Meta Tags Generated via https://www.opengraph.xyz */}
     </Head>
     <Card radius="md" sx={(theme) => ({ backgroundColor: theme.fn.rgba(theme.colors.dark[7], 1) })} mb="sm" shadow="lg">
       <Group spacing="sm">
