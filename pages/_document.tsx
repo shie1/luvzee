@@ -6,6 +6,7 @@ export default function Document() {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name='keywords' content="music, zene, magyar, alter, alternatív, indie" />
+        <meta name="theme-color" content="#D0BFFF" />
       </Head>
       <body>
         <Main />
