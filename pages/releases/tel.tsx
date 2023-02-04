@@ -1,6 +1,7 @@
 import { IconBrandApple, IconBrandSpotify, IconBrandTidal, IconBrandYoutube } from "@tabler/icons";
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image"
 import { createElement } from "react";
 
 const releaseDetails = {
@@ -83,8 +84,8 @@ const Tel: NextPage = () => {
                 </svg>
             </a>
         </div>
-        <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-            <img draggable="false" src={releaseDetails.cover} alt={releaseDetails.title} className="w-64 rounded-md" />
+        <main className="flex flex-col items-center justify-center w-[100vw] flex-1 px-20 text-center">
+            <Image width={500} height={500} draggable="false" src={releaseDetails.cover} alt={releaseDetails.title} className="w-64 rounded-md" />
             <h1 className="text-5xl font-bold mt-2">
                 luvzee • {releaseDetails.title}
             </h1>
@@ -134,7 +135,7 @@ const Tel: NextPage = () => {
                     A személyes tapasztalataim, érzéseim és gondolataim szolgálnak az album alapjául. A hangulat változatos, többek között vannak haragos, megbánó és szomorú számok is.
                 </p>
             </div>
-            <hr className="w-96 my-6 border-gray-300" />
+            <hr className="w-[65vw] my-6 border-gray-300" />
             <h2 className="text-2xl mb-2">A ChatGPT szavai az EP dalairól</h2>
             <div className="text-left lg:w-1/2">
                 <h3 className="text-2xl">Track 1 • {releaseDetails.tracks[0].title}</h3>
