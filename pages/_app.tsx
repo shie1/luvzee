@@ -11,15 +11,14 @@ export default function App({ Component, pageProps }: AppProps) {
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Component {...pageProps} />
       <footer className="mt-8 flex items-center justify-center w-full h-24 border-t">
+        {/* powered by openai */}
         <a
           className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://openai.com"
           target="_blank"
           rel="noopener noreferrer external"
         >
-          <span className="mr-1">Powered by{" "}</span>
-          <span className='sr-only'>Vercel</span>
-          <IconBrandVercel strokeWidth={1.2} />
+          Powered by OpenAI
         </a>
         <span className="mx-2">•</span>
         <a
