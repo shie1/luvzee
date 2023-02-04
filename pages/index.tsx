@@ -117,7 +117,7 @@ const Home: NextPage = () => {
       {/* a little about text */}
       <div className="mt-2 prose lg:prose-xl lg:w-1/2">
         <p>
-          Luvzee énekes-dalszerző, aki Magyarországon él és indie/alternatív stílusban alkot. A "tél" című első EP-je a szerelmi veszteség fájdalmas érzéseit mutatja be, miközben a feldolgozás és a fejlődés folyamatát is bemutatja.
+          Luvzee énekes-dalszerző, aki Magyarországon él és indie/alternatív stílusban alkot. A &quot;tél&quot; című első EP-je a szerelmi veszteség fájdalmas érzéseit mutatja be, miközben a feldolgozás és a fejlődés folyamatát is bemutatja.
         </p>
       </div>
       {/* Map all social links into responsive grid of labelled icons */}
