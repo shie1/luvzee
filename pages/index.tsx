@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { createElement } from "react";
+import Link from "next/link"
 
 type SocialLink = { label: string, icon: TablerIcon, href: string }
 const links: Array<SocialLink> = [
@@ -113,7 +114,7 @@ const Home: NextPage = () => {
       {/* Map all releases into grid of cards, center items horizontally */}
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
         {releases.map(({ title, type, year, cover, href, tracks }) => (
-          <a
+          <Link
             key={title}
             href={href}
             className="flex flex-col items-center p-6 text-left border border-zinc-300 w-80 rounded-xl hover:text-blue-600 focus:text-blue-600 hover:border-zinc-400"
@@ -121,7 +122,7 @@ const Home: NextPage = () => {
             <Image width={500} height={500} draggable="false" src={cover} alt={title} className="w-64 rounded-md" />
             <h3 className="inline-block mt-4 text-2xl font-bold">{title}</h3>
             <p className="inline-block mt-1 text-xl">{type} • {tracks} dal • {year}</p>
-          </a>
+          </Link>
         ))}
       </div>
     </main>
