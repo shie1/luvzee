@@ -114,6 +114,12 @@ const Home: NextPage = () => {
       <p className="mt-3 text-2xl">
         Magyar alternatív/indie zenész
       </p>
+      {/* a little about text */}
+      <div className="mt-2 prose lg:prose-xl lg:w-1/2">
+        <p>
+          Luvzee énekes-dalszerző, aki Magyarországon él és indie/alternatív stílusban alkot. A "tél" című első EP-je a szerelmi veszteség fájdalmas érzéseit mutatja be, miközben a feldolgozás és a fejlődés folyamatát is bemutatja.
+        </p>
+      </div>
       {/* Map all social links into responsive grid of labelled icons */}
       <div className="grid grid-cols-2 xs:grid-cols-3 gap-3 md:gap-6 mt-6 sm:grid-cols-4 lg:grid-cols-5">
         {links.map(({ label, icon, href }) => (
