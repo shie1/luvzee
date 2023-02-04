@@ -111,9 +111,9 @@ const Home: NextPage = () => {
       <h1 className="text-6xl font-bold">
         luvzee
       </h1>
-      <p className="mt-3 text-2xl">
+      <h2 className="mt-3 text-2xl">
         Magyar alternatív/indie zenész
-      </p>
+      </h2>
       {/* a little about text */}
       <div className="mt-2 prose lg:prose-xl lg:w-1/2">
         <p>
