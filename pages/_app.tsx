@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
         >
           <span className="mr-1">Powered by{" "}</span>
           <span className='sr-only'>Vercel</span>
-          <IconBrandVercel />
+          <IconBrandVercel strokeWidth={1.2} />
         </a>
         <span className="mx-2">•</span>
         <a

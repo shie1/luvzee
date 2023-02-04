@@ -130,7 +130,7 @@ const Home: NextPage = () => {
             href={href}
             className="flex min-w-fit flex-col items-center justify-center p-6 text-left border border-zinc-300 rounded-xl hover:text-blue-600 focus:text-blue-600 hover:border-zinc-400"
           >
-            {createElement(icon, { size: 32 })}
+            {createElement(icon, { size: 32, strokeWidth: 1.2 })}
             <span className="sm:not-sr-only sr-only inline-block mt-4 text-xl text-center">{label}</span>
           </a>
         ))}
