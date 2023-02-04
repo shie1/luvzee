@@ -24,19 +24,19 @@ const Tel: NextPage = () => {
         <Head>
             {/* HTML Meta Tags */}
             <title>luvzee • következő lemez</title>
-            <meta name="description" content='Otthagyni a múltat, szembenézni a bizonytalan jövővel' />
+            <meta name="description" content='Luvzee következő lemeze: "Otthagyni a múltat, szembenézni a bizonytalan jövővel"' />
             {/* Facebook Meta Tags */}
             <meta property="og:url" content="https://luvzee.shie1bi.hu/releases/preview" />
             <meta property="og:type" content="website" />
             <meta property="og:title" content="Betekintés luvzee következő lemezébe" />
-            <meta property="og:description" content='Otthagyni a múltat, szembenézni a bizonytalan jövővel' />
+            <meta property="og:description" content='Luvzee következő lemeze: "Otthagyni a múltat, szembenézni a bizonytalan jövővel"' />
             <meta property="og:image" content="/img/preview-cover.jpg" />
             {/* Twitter Meta Tags */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta property="twitter:domain" content="luvzee.shie1bi.hu" />
             <meta property="twitter:url" content="https://luvzee.shie1bi.hu/releases/preview" />
             <meta name="twitter:title" content="Betekintés luvzee következő lemezébe" />
-            <meta name="twitter:description" content='Otthagyni a múltat, szembenézni a bizonytalan jövővel' />
+            <meta name="twitter:description" content='Luvzee következő lemeze: "Otthagyni a múltat, szembenézni a bizonytalan jövővel"' />
             <meta name="twitter:image" content="/img/preview-cover.jpg" />
             {/* Meta Tags Generated via https://www.opengraph.xyz */}
         </Head>
