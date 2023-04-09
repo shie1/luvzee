@@ -1,9 +1,18 @@
-import { IconBrandApple, IconBrandSpotify, IconBrandTidal, IconBrandYoutube } from "@tabler/icons";
+import { IconBrandApple, IconBrandSpotify, IconBrandTidal, IconBrandYoutube, TablerIcon } from "@tabler/icons";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image"
 import Link from "next/link";
 import { createElement } from "react";
+
+export type releaseDetails = {
+    title: string,
+    type: string,
+    year: string,
+    cover: string,
+    tracks: Array<{ title: string, duration: string }>,
+    listenUrls: Array<{ label: string, icon: TablerIcon, href: string }>
+}
 
 const releaseDetails = {
     title: "tél",

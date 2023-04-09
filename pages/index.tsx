@@ -5,6 +5,15 @@ import Image from "next/image";
 import { createElement, useEffect, useState } from "react";
 import Link from "next/link"
 
+const reverseArr = (input: Array<any>) => {
+  var ret = new Array;
+  for (var i = input.length - 1; i >= 0; i--) {
+    ret.push(input[i]);
+  }
+  return ret;
+}
+
+
 type SocialLink = { label: string, icon: TablerIcon, href: string }
 const links: Array<SocialLink> = [
   {
@@ -64,28 +73,17 @@ const releases: Array<Release> = [
     href: "/releases/tel",
     tracks: 5,
   },
+  {
+    title: "vakságból kiérve",
+    type: "EP",
+    year: "2023",
+    cover: "/img/vaksagbol-kierve-cover.jpg",
+    href: "/releases/vaksagbol-kierve",
+    tracks: 7,
+  }
 ]
 
-const releasePreviewAvailable = true
-
 const Home: NextPage = () => {
-  const [prTitle, setPrTitle] = useState("luvzeenextrelease")
-  const [prTracks, setPrTracks] = useState("5")
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      //Shuffle characters of prTitle
-      const shuffled = prTitle.split("").sort(() => 0.5 - Math.random()).join("")
-
-      //random number beetween 5 and 9 for prTracks
-      requestAnimationFrame(() => {
-        setPrTitle(shuffled)
-        setPrTracks(Math.floor(Math.random() * 5 + 5).toString())
-      })
-    }, 2)
-    return () => clearInterval(interval)
-  }, [])
-
   return (<>
     <Head>
       {/* HTML Meta Tags */}
@@ -138,15 +136,7 @@ const Home: NextPage = () => {
       <hr className="w-[65vw] my-6 border-gray-300" />
       {/* Map all releases into grid of cards, center items horizontally */}
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
-        {releasePreviewAvailable && <Link
-          href="/releases/preview"
-          className="flex flex-col items-center p-6 text-left border border-zinc-300 w-80 rounded-xl hover:text-blue-600 focus:text-blue-600 hover:border-zinc-400"
-        >
-          <Image width={500} height={500} draggable="false" src="/img/preview-cover.jpg" alt="Preview" className="w-64 rounded-md" />
-          <h3 className="inline-block mt-4 text-2xl font-bold">{prTitle}</h3>
-          <p className="inline-block mt-1 text-xl">???? • {prTracks} dal • {(new Date()).getFullYear()}</p>
-        </Link>}
-        {releases.reverse().map(({ title, type, year, cover, href, tracks }) => (
+        {reverseArr(releases).map(({ title, type, year, cover, href, tracks }) => (
           <Link
             key={title}
             href={href}
