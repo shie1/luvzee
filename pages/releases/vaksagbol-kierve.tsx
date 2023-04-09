@@ -129,7 +129,7 @@ const VaksagbolKierve: NextPage = () => {
                     Mindenki megmondta, hogy ez lesz a vége. Most itt vagyunk és keresni kell az okokat, hogy folytassuk. Legyen az karrier, barátok, vagy egy új szerelem, mindent meg kell próbálni.
                 </p>
                 <p className="text-lg">
-                    A 2023-mas "vakságból kiérve" a &quot;tél&quot; EP folytatása. Ebben a lemezben új témákkal is kísérleteztem, így nem annyira függnek össze a dalok, mint az előző lemezben.
+                    A 2023-mas &quot;vakságból kiérve&quot; a &quot;tél&quot; EP folytatása. Ebben a lemezben új témákkal is kísérleteztem, így nem annyira függnek össze a dalok, mint az előző lemezben.
                 </p>
                 <p className="text-lg">
                     A lemez elkészítéséhez kb. 2 hónap kellett. Az első dal, az &quot;el:visel&quot;, 2023 január 20-án jelent meg, az utolsó, a &quot;kanapé&quot;, pedig április 4-én.
@@ -146,7 +146,7 @@ const VaksagbolKierve: NextPage = () => {
                 {/* chatgpt generated text, put it in a blockquote and make it appear as a quote */}
                 <blockquote className="text-lg italic border-l-4 border-gray-300 pl-4 mt-4 mb-6 gap-4 flex flex-col">
                     <p>
-                        A dal egy fiú szemszögéből szól, aki egy szakításon ment keresztül, és most egy új lányt szeretne aki "el:visel", mint az exe régen. A fiú küzd a múltjával, a bűntudatával és az öngyilkossági gondolataival, de a lány segít neki túllépni ezeken. Az "amiket viseltem" rész pedig arra utal, hogy az éneklő személynek voltak olyan dolgai, amelyeket nehéz volt kezelni, és amelyek a kapcsolat során jelentkeztek. Ezzel a sorral az éneklő személy elismeri, hogy az előző kapcsolatban voltak nehézségei, és hogy az előző partnerének volt szerepe azok kezelésében.
+                        A dal egy fiú szemszögéből szól, aki egy szakításon ment keresztül, és most egy új lányt szeretne aki &quot;el:visel&quot;, mint az exe régen. A fiú küzd a múltjával, a bűntudatával és az öngyilkossági gondolataival, de a lány segít neki túllépni ezeken. Az &quot;amiket viseltem&quot; rész pedig arra utal, hogy az éneklő személynek voltak olyan dolgai, amelyeket nehéz volt kezelni, és amelyek a kapcsolat során jelentkeztek. Ezzel a sorral az éneklő személy elismeri, hogy az előző kapcsolatban voltak nehézségei, és hogy az előző partnerének volt szerepe azok kezelésében.
                     </p>
                 </blockquote>
                 <h3 className="text-2xl">Track 2 • {releaseDetails.tracks[1].title}</h3>
