@@ -53,25 +53,25 @@ const releaseDetails: releaseDetails = {
     listenUrls: []
 }
 
-const Tel: NextPage = () => {
+const VaksagbolKierve: NextPage = () => {
     return (<>
         <Head>
             {/* HTML Meta Tags */}
-            <title>luvzee • tél</title>
-            <meta name="description" content='Magyar indie előadó luvzee első lemeze: "Szerelem, szakítás, továbblépés, ismétlődés"' />
+            <title>luvzee • vakságból kiérve</title>
+            <meta name="description" content='Csak hormonok vannak meg ingerek, majd a vakságból kiérve világos lesz minden.' />
             {/* Facebook Meta Tags */}
-            <meta property="og:url" content="https://luvzee.shie1bi.hu/releases/tel" />
+            <meta property="og:url" content="https://luvzee.shie1bi.hu/releases/vaksagbol-kierve" />
             <meta property="og:type" content="website" />
-            <meta property="og:title" content="luvzee • tél (2022, EP)" />
-            <meta property="og:description" content='Magyar indie előadó luvzee első lemeze: "Szerelem, szakítás, továbblépés, ismétlődés"' />
-            <meta property="og:image" content="/img/tel-cover.jpg" />
+            <meta property="og:title" content="luvzee • vakságból kiérve (2023, EP)" />
+            <meta property="og:description" content='Csak hormonok vannak meg ingerek, majd a vakságból kiérve világos lesz minden.' />
+            <meta property="og:image" content="/img/vaksagbol-kierve-cover.jpg" />
             {/* Twitter Meta Tags */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta property="twitter:domain" content="luvzee.shie1bi.hu" />
-            <meta property="twitter:url" content="https://luvzee.shie1bi.hu/releases/tel" />
-            <meta name="twitter:title" content="luvzee • tél (2022, EP)" />
-            <meta name="twitter:description" content='Magyar indie előadó luvzee első lemeze: "Szerelem, szakítás, továbblépés, ismétlődés"' />
-            <meta name="twitter:image" content="/img/tel-cover.jpg" />
+            <meta property="twitter:url" content="https://luvzee.shie1bi.hu/releases/vaksagbol-kierve" />
+            <meta name="twitter:title" content="luvzee • vakságból kiérve (2023, EP)" />
+            <meta name="twitter:description" content='Csak hormonok vannak meg ingerek, majd a vakságból kiérve világos lesz minden.' />
+            <meta name="twitter:image" content="/img/vaksagbol-kierve-cover.jpg" />
             {/* Meta Tags Generated via https://www.opengraph.xyz */}
         </Head>
         {/* Let the user navigate back */}
@@ -129,10 +129,10 @@ const Tel: NextPage = () => {
                     Mindenki megmondta, hogy ez lesz a vége. Most itt vagyunk és keresni kell az okokat, hogy folytassuk. Legyen az karrier, barátok, vagy egy új szerelem, mindent meg kell próbálni.
                 </p>
                 <p className="text-lg">
-                    A 2023-mas "vakságból kiérve" a "tél" EP folytatása. Ebben a lemezben új témákkal is kísérleteztem, így nem annyira függnek össze a dalok, mint az előző lemezben.
+                    A 2023-mas "vakságból kiérve" a &quot;tél&quot; EP folytatása. Ebben a lemezben új témákkal is kísérleteztem, így nem annyira függnek össze a dalok, mint az előző lemezben.
                 </p>
                 <p className="text-lg">
-                    A lemez elkészítéséhez kb. 2 hónap kellett. Az első dal, az "el:visel", 2023 január 20-án jelent meg, az utolsó, a "kanapé", pedig április 4-én.
+                    A lemez elkészítéséhez kb. 2 hónap kellett. Az első dal, az &quot;el:visel&quot;, 2023 január 20-án jelent meg, az utolsó, a &quot;kanapé&quot;, pedig április 4-én.
                 </p>
             </div>
             <hr className="w-[65vw] my-6 border-gray-300" />
@@ -155,13 +155,13 @@ const Tel: NextPage = () => {
                         A dal szövege teljesen megfelelően tükrözi a szakítás utáni nehéz érzéseket, beleértve a fájdalmat, az elutasítást és a magányt, miközben arra készteti a hallgatót, hogy felemelje a fejét és tovább haladjon.
                     </p>
                     <p>
-                        A szerző úgy érzi, hogy ideje változtatni, el kell szakadnia a múlttól, ezért úgy dönt, hogy "kitépi a gyökereit", ami azt jelenti, hogy el kell válnia a múltjától és az abban felépült kapcsolattól. Azonban itt már érződik a bizonytalanság és az ambivalencia, amikor azt mondja, "úgyis kinő majd", ami azt jelenti, hogy talán ez az érzés csak átmeneti, és az idő múlásával talán jobban lesz. Ugyanakkor azt is mondja, hogy "nem számít hányszor teszlek el láb alól", ami arra utal, hogy már sokszor próbálkozott, hogy elhagyja ezt az érzést, de nem sikerült.
+                        A szerző úgy érzi, hogy ideje változtatni, el kell szakadnia a múlttól, ezért úgy dönt, hogy &quot;kitépi a gyökereit&quot;, ami azt jelenti, hogy el kell válnia a múltjától és az abban felépült kapcsolattól. Azonban itt már érződik a bizonytalanság és az ambivalencia, amikor azt mondja, &quot;úgyis kinő majd&quot;, ami azt jelenti, hogy talán ez az érzés csak átmeneti, és az idő múlásával talán jobban lesz. Ugyanakkor azt is mondja, hogy &quot;nem számít hányszor teszlek el láb alól&quot;, ami arra utal, hogy már sokszor próbálkozott, hogy elhagyja ezt az érzést, de nem sikerült.
                     </p>
                     <p>
-                        A következő részben a szerző azt mondja, hogy korábban már elvágta magát a kapcsolatból, és megpróbálta eldobni az emlékeit, mint a "csúnya indákat". Azonban még mindig van valami, ami a múltjához kötözi, és ez egy gyenge hangfoszlány, amit a volt partner hangjából hall. Ez a szakasz azt jelzi, hogy még mindig van érzelmileg kötődése a korábbi kapcsolathoz.
+                        A következő részben a szerző azt mondja, hogy korábban már elvágta magát a kapcsolatból, és megpróbálta eldobni az emlékeit, mint a &quot;csúnya indákat&quot;. Azonban még mindig van valami, ami a múltjához kötözi, és ez egy gyenge hangfoszlány, amit a volt partner hangjából hall. Ez a szakasz azt jelzi, hogy még mindig van érzelmileg kötődése a korábbi kapcsolathoz.
                     </p>
                     <p>
-                        A szerző egy kertbe menekül, amit gondoz, és itt találja meg a nyugalmát. Azonban itt is felmerül az ambivalencia, amikor a "gyönyörű virágszál"-ra utalva azt mondja, hogy "kurva gyenge", ami azt jelzi, hogy bizonytalannak érzi magát az érzései kapcsán. Ezt a bizonytalanságot erősíti az, hogy rájön, hogy nem adott vizet a virágnak, és egy egész záport zúdít a kertre.
+                        A szerző egy kertbe menekül, amit gondoz, és itt találja meg a nyugalmát. Azonban itt is felmerül az ambivalencia, amikor a &quot;gyönyörű virágszál&quot;-ra utalva azt mondja, hogy &quot;kurva gyenge&quot;, ami azt jelzi, hogy bizonytalannak érzi magát az érzései kapcsán. Ezt a bizonytalanságot erősíti az, hogy rájön, hogy nem adott vizet a virágnak, és egy egész záport zúdít a kertre.
                     </p>
                 </blockquote>
                 <h3 className="text-2xl">Track 3 • {releaseDetails.tracks[2].title}</h3>
@@ -173,7 +173,7 @@ const Tel: NextPage = () => {
                 <h3 className="text-2xl">Track 4 • {releaseDetails.tracks[3].title}</h3>
                 <blockquote className="text-lg italic border-l-4 border-gray-300 pl-4 mt-4 mb-6 gap-4 flex flex-col">
                     <p>
-                        Ez egy dal szövege, amelynek számos versszaka van. A dalban a szerző a kommunikáció nehézségeiről és az emberi kapcsolatok bonyolultságáról beszél. A dal fő témája az, hogy az emberek gyakran nem tudnak őszinték lenni egymással, és hogy a kapcsolatokban a hatalom és az irányítás gyakran fontosabb szerepet játszik, mint a szeretet és a kölcsönös tisztelet. A dalban szereplő személyiség, akit a dal énekese a "te"-nek nevez, egyszerre arrogáns és bizonytalan, és gyakran játszik mások érzelmeivel. Az énekes a dalban feltesz néhány kérdést, amelyek azt mutatják, hogy nem érti, miért viselkedik az illető ilyen módon. A dal végén az énekes azt mondja, hogy nem adja fel az emberekkel való kapcsolatot, de szeretné, ha az illető őszinte lenne hozzá, és nyíltan kommunikálnának egymással.
+                        Ez egy dal szövege, amelynek számos versszaka van. A dalban a szerző a kommunikáció nehézségeiről és az emberi kapcsolatok bonyolultságáról beszél. A dal fő témája az, hogy az emberek gyakran nem tudnak őszinték lenni egymással, és hogy a kapcsolatokban a hatalom és az irányítás gyakran fontosabb szerepet játszik, mint a szeretet és a kölcsönös tisztelet. A dalban szereplő személyiség, akit a dal énekese a &quot;te&quot;-nek nevez, egyszerre arrogáns és bizonytalan, és gyakran játszik mások érzelmeivel. Az énekes a dalban feltesz néhány kérdést, amelyek azt mutatják, hogy nem érti, miért viselkedik az illető ilyen módon. A dal végén az énekes azt mondja, hogy nem adja fel az emberekkel való kapcsolatot, de szeretné, ha az illető őszinte lenne hozzá, és nyíltan kommunikálnának egymással.
                     </p>
                 </blockquote>
                 <h3 className="text-2xl">Track 5 • {releaseDetails.tracks[4].title}</h3>
@@ -182,7 +182,7 @@ const Tel: NextPage = () => {
                         Ez egy dal, amely kritizálja a zeneipart és azokat a művészeket, akik csak a pénzre és a hírnévre vágynak, ahelyett hogy valódi tehetséggel rendelkeznének. Az énekes szerint az iparágban az a probléma, hogy a zenésznek nem csak tehetségre van szüksége ahhoz, hogy sikeres legyen, hanem pénzre, kapcsolatokra és marketingre is.
                     </p>
                     <p>
-                        Az énekes kritizálja azokat a művészeket, akik csak "csoszognak" a gondolataikban, és nem mondanak ki semmi mélyebb gondolatot a dalukban. Ráadásul azt állítja, hogy sok olyan zenész van, akiknek nincs igazán tehetségesek, mégis híressé válnak az iparágban, mert az embereknek tetszik a zene, amit csinálnak.
+                        Az énekes kritizálja azokat a művészeket, akik csak &quot;csoszognak&quot; a gondolataikban, és nem mondanak ki semmi mélyebb gondolatot a dalukban. Ráadásul azt állítja, hogy sok olyan zenész van, akiknek nincs igazán tehetségesek, mégis híressé válnak az iparágban, mert az embereknek tetszik a zene, amit csinálnak.
                     </p>
                     <p>
                         Az énekes véleménye az, hogy az iparágban a pénz és a hírnév fontosabbak, mint a tehetség és az igazi zenei érték. Úgy érzi, hogy ha az embereknek többet lenne szükségük a zenei tehetségre, akkor igazi zenészek állnának elő, akik igazán értékes zenéket tudnának létrehozni.
@@ -208,4 +208,4 @@ const Tel: NextPage = () => {
     </>);
 };
 
-export default Tel;
+export default VaksagbolKierve;
